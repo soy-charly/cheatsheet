@@ -5,7 +5,7 @@ import ReactCheatsheet from "../cheatsheets/react";
 import GitCheatsheet from "../cheatsheets/git";
 import PythonCheatsheet from '../cheatsheets/python'
 import TkinterCheatsheet from '../cheatsheets/tkinker'
-import FlaskCheatsheet from '../cheatsheets/flask'
+import FlaskCheatsheet from '../cheatsheets/Flask'
 export function loadCheatsheets(): Cheatsheet[] {
     return [
         {
