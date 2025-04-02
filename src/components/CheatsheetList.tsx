@@ -13,6 +13,7 @@ export default function CheatsheetList({ cheatsheets }: Props) {
                 <div key={cheat.id} className="cheatsheet-item">
                     <h2>{cheat.title}</h2>
                     <p>{cheat.description}</p>
+                    <br />
                     <Link to={`/cheatsheet/${cheat.id}`} className="cheatsheet-link">
                         Ver más
                     </Link>

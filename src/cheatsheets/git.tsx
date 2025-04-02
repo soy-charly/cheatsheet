@@ -1,8 +1,9 @@
+import "./../styles/Cheatsheet.css";
+
 const GitCheatsheet = () => {
     return (
         <div className="cheatsheet">
-            <h2>Git</h2>
-            <p>Comandos básicos de Git para control de versiones:</p>
+            <div>Comandos básicos de Git para control de versiones:</div>
             <ul>
                 <li>Inicializar un repositorio: <code>git init</code></li>
                 <li>Clonar un repositorio: <code>git clone URL_DEL_REPOSITORIO</code></li>
@@ -13,4 +14,4 @@ const GitCheatsheet = () => {
     );
 };
 
-export default GitCheatsheet
+export default GitCheatsheet;

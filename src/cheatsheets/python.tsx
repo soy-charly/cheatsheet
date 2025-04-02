@@ -1,8 +1,9 @@
+import "./../styles/Cheatsheet.css";
+
 const PythonCheatsheet = () => {
     return (
         <div className="cheatsheet">
-            <h2>Python</h2>
-            <p>Ejemplos básicos de Python para principiantes:</p>
+            <div>Ejemplos básicos de Python para principiantes:</div>
             <ul>
                 <li>
                     <strong>Variables:</strong>

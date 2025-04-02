@@ -1,8 +1,9 @@
+import "./../styles/Cheatsheet.css";
+
 const FlaskCheatsheet = () => {
     return (
         <div className="cheatsheet">
-            <h2>Flask</h2>
-            <p>Comandos y snippets básicos para desarrollar con Flask:</p>
+            <div>Comandos y snippets básicos para desarrollar con Flask:</div>
             <ul>
                 <li>Instalar Flask: <code>pip install flask</code></li>
                 <li>Crear una app básica:

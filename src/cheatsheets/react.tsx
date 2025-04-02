@@ -1,8 +1,9 @@
+import "./../styles/Cheatsheet.css";
+
 const ReactCheatsheet = () => {
     return (
         <div className="cheatsheet">
-            <h2>React</h2>
-            <p>Trucos y consejos para React:</p>
+            <div>Trucos y consejos para React:</div>
             <ul>
                 <li>Usa <code>useState</code> y <code>useEffect</code> para manejar el estado y los efectos.</li>
                 <li>Evita pasar props innecesarias a componentes.</li>

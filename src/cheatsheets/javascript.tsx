@@ -1,8 +1,9 @@
+import "./../styles/Cheatsheet.css";
+
 const JavaScript = () => {
     return (
         <div className="cheatsheet">
-            <h2>JavaScript</h2>
-            <p>Aquí van algunos trucos de JavaScript:</p>
+            <div>Aquí van algunos trucos de JavaScript:</div>
             <ul>
                 <li>Usa <code>let</code> y <code>const</code> en lugar de <code>var</code>.</li>
                 <li>Evita los <code>eval()</code>por seguridad.</li>

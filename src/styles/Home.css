@@ -50,12 +50,14 @@
 }
 
 .cheatsheet-link {
+  background-color: #2a2a2a;
   text-decoration: none;
   color: #03dac6;
 }
 
 .cheatsheet-link:hover {
-  text-decoration: underline;
+  color: #03dac5be;
+  text-decoration: none;
 }
 
 @media (max-width: 1200px) {

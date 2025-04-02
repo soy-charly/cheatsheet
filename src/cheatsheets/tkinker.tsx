@@ -1,8 +1,9 @@
+import "./../styles/Cheatsheet.css";
+
 const TkinterCheatsheet = () => {
   return (
     <div className="cheatsheet">
-      <h2>Tkinter</h2>
-      <p>Trucos y consejos para Tkinter:</p>
+      <div>Trucos y consejos para Tkinter:</div>
       <ul>
         <li>Importa Tkinter con <code>import tkinter as tk</code> o <code>from tkinter import ttk</code>.</li>
         <li>Usa <code>tk.Tk()</code> para crear una ventana principal.</li>

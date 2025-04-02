@@ -24,6 +24,15 @@ export default function Home() {
                     )
                 );
             }} />
+            <br />
+            <div className="introduction">
+                <h1>Welcome to the Cheatsheet App</h1>
+                <br />
+                <p>Find and manage your favorite cheatsheets easily.</p>
+                <p>Use the search bar above to quickly locate specific cheatsheets or browse through the list below to explore all available resources.</p>
+                <p>Stay organized and boost your productivity with our comprehensive collection of cheatsheets tailored for developers.</p>
+                <br />
+            </div>
             <CheatsheetList cheatsheets={filtered} />
         </div>
     );
