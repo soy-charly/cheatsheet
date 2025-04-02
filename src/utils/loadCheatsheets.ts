@@ -5,6 +5,7 @@ import ReactCheatsheet from "../cheatsheets/react";
 import GitCheatsheet from "../cheatsheets/git";
 import PythonCheatsheet from '../cheatsheets/python'
 import TkinterCheatsheet from '../cheatsheets/tkinker'
+import FlaskCheatsheet from '../cheatsheets/flask'
 export function loadCheatsheets(): Cheatsheet[] {
     return [
         {
@@ -30,6 +31,12 @@ export function loadCheatsheets(): Cheatsheet[] {
             title: "Python",
             description: "Trucos de Python",
             content: PythonCheatsheet()
+        },
+        {
+            id: "flask",
+            title: "Flask",
+            description: "Trucos de Flask",
+            content: FlaskCheatsheet()
         },
         {
             id: "python-tkinker",
