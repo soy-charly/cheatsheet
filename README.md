@@ -5,7 +5,7 @@ Este proyecto es una colección de hojas de referencia rápidas (cheatsheets) pa
 ## Características
 
 - [x] Cheatsheets organizadas por lenguaje de programación, herramienta o tecnología.
-- [] Formato claro y conciso para facilitar la lectura.(en proceso)
+- [ ] Formato claro y conciso para facilitar la lectura.(en proceso)
 - [x] Diseñado para ser utilizado como referencia rápida.
 - [ ] Posibilidad de contribuir con tus propias hojas.
 
