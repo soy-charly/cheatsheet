@@ -15,7 +15,7 @@ export default function CheatsheetPage() {
     return (
         <div className="cheatsheet-page">
             <Navbar />
-            <div className="cheatsheet-content">
+            <div>
                 <h1>{cheatsheet.title}</h1>
                 <div className="content">{cheatsheet.content} {/* Aquí se muestra el contenido */}</div>
             </div>
