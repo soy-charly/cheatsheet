@@ -6,6 +6,8 @@ import GitCheatsheet from "../cheatsheets/git";
 import PythonCheatsheet from '../cheatsheets/python'
 import TkinterCheatsheet from '../cheatsheets/tkinker'
 import FlaskCheatsheet from '../cheatsheets/Flask'
+import FlaskCheatsheet from '../cheatsheets/Flask'
+import MySQLCheatsheet from '../cheatsheets/mySQL-Pyhon'
 export function loadCheatsheets(): Cheatsheet[] {
     return [
         {
@@ -13,6 +15,12 @@ export function loadCheatsheets(): Cheatsheet[] {
             title: "JavaScript",
             description: "Trucos de JavaScript",
             content: JavaScript()
+        },
+        {
+            id: "mySQL-python",
+            title: "mySQL-python",
+            description: "guia de uso de mysql en python",
+            content: MySQLCheatsheet()
         },
         {
             id: "react",
