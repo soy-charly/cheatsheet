@@ -6,7 +6,6 @@ import GitCheatsheet from "../cheatsheets/git";
 import PythonCheatsheet from '../cheatsheets/python'
 import TkinterCheatsheet from '../cheatsheets/tkinker'
 import FlaskCheatsheet from '../cheatsheets/Flask'
-import FlaskCheatsheet from '../cheatsheets/Flask'
 import MySQLCheatsheet from '../cheatsheets/mySQL-Pyhon'
 export function loadCheatsheets(): Cheatsheet[] {
     return [
